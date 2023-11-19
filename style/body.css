@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: rgb(6, 6, 6);
+}
+
+.main-section {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+img{
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.flex-container{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+.content{
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+
+.flex-items{
+    height: 230px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+.video-heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.flex-container-second{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.row2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.content-second{
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 90px;
+    
+    
+}
+
+
+.flex-videos{
+
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color:#161718;
+}
+
+.contact-poco >*{
+padding-left: 60px;
+margin: 0;
+}
+
+
+.contact-poco  > h2{
+    color: aliceblue;
+font-weight: bold;
+font-size: 20px;
+}
+
+.contact-poco > p{
+    font-size: 9.2px;
+    color: aliceblue;
+
+}
+
+.email-section{
+    margin-left: 45px;
+    margin-right: 130px;
+}
+
+.email-section > input{
+    width: 230px;
+    height: 30px;
+    background: transparent;
+    border: 1.5px solid white;
+}
+
+.poco-quote >*{
+    padding-left: 60px;
+    margin: 0;
+    }
+    
+.poco-quote > h2{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.poco-quote > p{
+    font-size: 9.2px;
+    color: aliceblue;
+}
+.contact-icons{
+    margin-left: 75px;
+}
+
+.contact-icons > img{
+    margin-right: 30px;
+    width: 25px;
+}
+
+.footer-section{
+    background-color: black;
+}
+.flex-footer{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flex-footer h5{
+    padding-left: 15px ;
+    font-size: 15px;
+    margin-right: 115px;
+    color: white;
+}
+.flex-footer ul{
+    margin: 0;
+    padding: 0;
+}
+.flex-footer li{
+    padding-bottom: 10px;
+}
+
+.flex-footer li a{
+    font-size: 13.5px;
+    font-weight: 200px;
+}
+
+.flex-footer div:first-child{
+    padding-left: 40px;
+}
+
+.flex-video{
+    background-color:black;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+   
+}
+
+.flex-copyright{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.copy-right{
+    background-color: black;
+}
+
+.copy-right h5{
+    padding-left: 15px;
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+    
+}
+
+/* hr{
+    border: none;
+    height: 10%;
+    size: .10cm;
+    color:white;  
+    background-color: #060606;
+}
+.horizontal-line{
+    height: 0%;
+    line-height: 0%;
+ 
+} */
+
+
+hr .horizontal-line{
+    border: none;
+    height: 1px;
+    background: black;
+}
