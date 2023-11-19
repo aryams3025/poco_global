@@ -123,6 +123,7 @@ font-size: 20px;
 .email-section > input{
     width: 230px;
     height: 30px;
+    color:white;
     background: transparent;
     border: 1.5px solid white;
 }
